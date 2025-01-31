@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background: red;
+    width: 97%;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 25px;
+    align-items: flex-start;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    background: cornflowerblue;
+    width: 97%;
+    height: 50vh;
+    justify-content: space-around;
+    margin: 25px;
+
+}
+
+.rodape_pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.rodape_filho{
+   width: 30vw;
+    height: 25vh;
+    align-items: center;
+    background: paleturquoise;
+
+}
+
+.header_filho{
+    align-items: flex-end;
+}
