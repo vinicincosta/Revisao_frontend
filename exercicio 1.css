@@ -6,41 +6,138 @@
 .header{
     display: flex;
     flex-direction: row;
-    background: red;
-    width: 97%;
+    background: cornflowerblue;
+    width: 96%;
     height: 10vh;
-    justify-content: space-between;
     margin: 25px;
-    align-items: flex-start;
+    padding: 10px;
+}
+
+.header a:hover{
 
 }
+.header_logo{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.header_logo img{
+    height: 100%;
+}
+
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    padding: 10px; /* Adiciona um pouco de espaço nas laterais */
+    gap: 20px;
+    justify-content: flex-end;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.header_menu p:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+    color: red;
+}
+
+.header_logo:hover{
+    transform: scale(1.05);
+}
+
 
 .main{
     display: flex;
     flex-direction: row;
-    background: cornflowerblue;
+    background: mediumpurple;
     width: 97%;
     height: 50vh;
-    justify-content: space-around;
     margin: 25px;
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    gap: 20px; /* Espaço entre o texto e a imagem */
+    margin-left: 80px;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+}
+
+.texto a {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.texto a:hover {
+    color: #00eaff;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.imagem img{
+    object-fit: cover;
 
 }
+
+.imagem{
+    overflow: clip;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 
 .rodape_pai{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     margin: 25px;
+    height: 100%;
 }
 
 .rodape_filho{
-   width: 30vw;
-    height: 25vh;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30vw;
+    height: 35vh;
     background: paleturquoise;
-
+    align-items:center;
+    border-radius: 5px;
+}
+.rodape_filho h2:hover{
+    color: purple;
+    text-decoration: underline;
+    transform: scale(1.05);
 }
 
-.header_filho{
-    align-items: flex-end;
+.rodape_filho p:hover{
+    color: red;
+    text-decoration: underline;
+    transform: scale(1.05);
 }
+
+.rodape_filho:hover{
+    transform: scale(1.05);
+}
+
+.rodape_filho img{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+
+
